@@ -387,7 +387,7 @@ quota. Scratch is the bottleneck.
 ## Known issues with dDocent v2.9.5
 
 The following bugs affect `ReferenceOpt.sh` and have been patched in the version
-maintained in this repository (`kelp_ddocent/bin/ReferenceOpt.sh`).
+maintained in this repository (`patched_tools/ReferenceOpt.sh`).
 
 ### 1. fastp version check rejects fastp ≥ 1.0
 
@@ -419,7 +419,7 @@ values including `NA` strings to gnuplot, which then errors. The patch uses
 ### Deploying the patched ReferenceOpt.sh
 
 ```bash
-rsync -av --perms kelp_ddocent/bin/ReferenceOpt.sh \
+rsync -av --perms patched_tools/ReferenceOpt.sh \
   $USER@deepthought.flinders.edu.au:/scratch/user/$USER/local/miniforge3/envs/<env_name>/bin/ReferenceOpt.sh
 
 # On HPC:
