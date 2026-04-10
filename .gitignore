@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Conda environment (2 GB — only patched tools are tracked under patched_tools/)
+kelp_ddocent/
+
+# Job logs (large, machine-specific)
+logs/
+
+# Claude Code memory
+.claude/
+
+# Temporary / editor files
+*.swp
+*.tmp
+*~
