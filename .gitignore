@@ -16,3 +16,7 @@ logs/
 *.swp
 *.tmp
 *~
+
+# dev files
+deploy.sh
+ddocent_hpc_project_notes.md
