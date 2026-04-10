@@ -73,7 +73,7 @@ PopID_IndID.R.fq.gz   (reverse)
 Where `PopID` is a population identifier and `IndID` is an individual identifier.
 If your demultiplexed reads use a different naming convention, you can just create symlinks with
 the correct names in a new dir without having to edit the original files.
-An example bash script to create symlinks is in <path/to/create_symlinks.sh>
+An example bash script to create symlinks is in `scripts/create_symlinks_template.sh`
 
 Place (or symlink) all reads into a single directory on scratch, e.g.:
 
